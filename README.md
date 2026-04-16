@@ -22,7 +22,17 @@ This project is divided into **two distinct phases**, each with its own workflow
 
 ## 📂 Project Structure
 
-TODO - FILL
+```
+├── docs/              # Design documentation & notes
+├── hardware/          # Circuit & PCB files
+│   ├── breadboard/    # Phase 01: Prototype testing
+│   ├── components/    # Datasheets & BOM
+│   ├── pcb/           # Phase 02: PCB design & Gerber files
+│   └── schematics/    # KiCad schematics
+├── simulations/       # SPICE circuit analysis
+├── audio/             # Test recordings
+└── images/            # Build photos & diagrams
+```
 
 ## 🚀 Quick Start
 
