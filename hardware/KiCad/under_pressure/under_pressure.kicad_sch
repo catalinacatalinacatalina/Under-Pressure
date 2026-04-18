@@ -1616,6 +1616,12 @@
 		(uuid "0209f2e5-f7b0-42c3-9d09-6c986558cf95")
 	)
 	(junction
+		(at 52.07 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1023064c-7173-41af-a79a-00fae7d744d2")
+	)
+	(junction
 		(at 67.31 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1694,12 +1700,6 @@
 		(uuid "80e3c9e5-b15b-426f-95ec-1489b696ccf9")
 	)
 	(junction
-		(at 208.28 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9637b334-9249-47ea-9671-f5444e885569")
-	)
-	(junction
 		(at 53.34 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1734,6 +1734,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6d25a0d-c7b4-4d77-8a05-66f8344a78bd")
+	)
+	(junction
+		(at 209.55 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd2221bb-e57f-4fbf-a5b9-7a22c76703d7")
 	)
 	(junction
 		(at 226.06 109.22)
@@ -1823,6 +1829,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 115.57) (xy 209.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1171072e-52b1-467d-9910-f533878f3c6f")
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140cf129-802c-4556-b374-f6fb4c248e28")
+	)
+	(wire
+		(pts
 			(xy 208.28 102.87) (xy 208.28 109.22)
 		)
 		(stroke
@@ -1880,6 +1906,16 @@
 			(type default)
 		)
 		(uuid "2857ade9-3a30-4c45-a2e7-f9246108d141")
+	)
+	(wire
+		(pts
+			(xy 52.07 27.94) (xy 52.07 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1a37f2-038e-4cf6-8461-fed3cc52ec6a")
 	)
 	(wire
 		(pts
@@ -1963,16 +1999,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 115.57) (xy 203.2 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385b0257-d98d-4cb1-aa44-641000669a2e")
-	)
-	(wire
-		(pts
 			(xy 231.14 115.57) (xy 231.14 113.03)
 		)
 		(stroke
@@ -2053,6 +2079,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 142.24) (xy 17.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476f0398-b8a6-4c16-9ecc-7de61d58ca3e")
+	)
+	(wire
+		(pts
 			(xy 64.77 125.73) (xy 64.77 133.35)
 		)
 		(stroke
@@ -2093,6 +2129,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 125.73) (xy 104.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f94e61c-808b-4da2-a873-89852bd38b5f")
+	)
+	(wire
+		(pts
+			(xy 119.38 125.73) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52679412-d3ed-4d87-aa64-e9590f8bf8b7")
+	)
+	(wire
+		(pts
 			(xy 52.07 29.21) (xy 52.07 34.29)
 		)
 		(stroke
@@ -2100,6 +2156,16 @@
 			(type default)
 		)
 		(uuid "586ecfcc-60ce-47f6-91af-d4be38f524ec")
+	)
+	(wire
+		(pts
+			(xy 17.78 142.24) (xy 17.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2c6fdf-c2c0-49cf-931a-1ee960b02184")
 	)
 	(wire
 		(pts
@@ -2113,13 +2179,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 109.22) (xy 191.77 115.57)
+			(xy 273.05 27.94) (xy 52.07 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6124fdd7-a26c-49ff-ae0a-c948cb3cbbd6")
+		(uuid "61b8b0dd-f332-4a86-8ca8-ca2c6ba665a6")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633a90da-a149-445f-b3dd-02ecf3a34fdb")
 	)
 	(wire
 		(pts
@@ -2223,7 +2299,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 109.22) (xy 208.28 115.57)
+			(xy 182.88 142.24) (xy 273.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708b2a25-1235-4153-9b94-584f534e29dc")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 209.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 109.22) (xy 213.36 109.22)
+			(xy 208.28 109.22) (xy 209.55 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2310,6 +2396,16 @@
 			(type default)
 		)
 		(uuid "831b2979-2313-4588-9c28-a833a9f18c84")
+	)
+	(wire
+		(pts
+			(xy 191.77 109.22) (xy 191.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b879a69-d5a0-4ba4-8c86-88ba3ff01170")
 	)
 	(wire
 		(pts
@@ -2483,6 +2579,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 142.24) (xy 273.05 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9893e0-327d-494b-8e64-9534586f3bae")
+	)
+	(wire
+		(pts
 			(xy 100.33 91.44) (xy 106.68 91.44)
 		)
 		(stroke
@@ -2543,6 +2649,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 125.73) (xy 167.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56a6c80-370e-4c63-a294-72db85127109")
+	)
+	(wire
+		(pts
 			(xy 27.94 41.91) (xy 27.94 45.72)
 		)
 		(stroke
@@ -2550,6 +2666,16 @@
 			(type default)
 		)
 		(uuid "d575f128-5f45-40a5-bd5f-db2cd26cea3e")
+	)
+	(wire
+		(pts
+			(xy 17.78 27.94) (xy 52.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4c9599-403f-4e83-886f-ef0692fe58e9")
 	)
 	(wire
 		(pts
@@ -2653,13 +2779,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 115.57) (xy 195.58 115.57)
+			(xy 182.88 125.73) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f26056e6-8a3a-4832-addf-1805460264c7")
+		(uuid "f3580af3-51e3-410f-ac59-1a604d73a188")
 	)
 	(wire
 		(pts
@@ -2883,6 +3009,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 175.26 123.19 270)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3f4a76-8d64-4793-b51f-0be6da85a298")
+		(property "Reference" "U1"
+			(at 175.26 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 175.26 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ebde086-9552-4a58-b004-f5f50f8629a6")
+		)
+		(pin "8"
+			(uuid "6d45cae1-a8f3-419b-aa1c-4573e0947c87")
+		)
+		(pin "5"
+			(uuid "5f365ad4-4036-4d63-be57-58b468bea0d9")
+		)
+		(pin "7"
+			(uuid "4ef67e5d-9ab4-4378-b123-f9b5ebc6cbc2")
+		)
+		(pin "4"
+			(uuid "9c04665e-8708-4409-89ad-bae4a771d48f")
+		)
+		(pin "3"
+			(uuid "c5984ad0-ac9e-4210-b25d-8998572f1dfb")
+		)
+		(pin "2"
+			(uuid "f10a9dab-1b1e-4876-b331-c2efaff65884")
+		)
+		(pin "6"
+			(uuid "30690bdb-9cea-4261-8d6e-7e4814e0c601")
+		)
+		(instances
+			(project ""
+				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 121.92 180)
 		(unit 1)
@@ -3081,6 +3293,71 @@
 			(project ""
 				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d2357c5-8a94-4324-b7dc-faa5dedac23b")
+		(property "Reference" "#PWR013"
+			(at 167.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffe3af29-a8b6-4ae9-89c6-d19c31fa4f76")
+		)
+		(instances
+			(project "under_pressure"
+				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b71d1b36-e803-4678-b235-bebc17a9877f")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 111.76 116.84 0)
 			(effects
 				(font
@@ -4791,7 +5068,7 @@
 		(instances
 			(project ""
 				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5131,6 +5408,72 @@
 			(project ""
 				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6bcc3d3-887e-4cb0-b908-6e0239e9ffb4")
+		(property "Reference" "#PWR012"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e55aa6bb-2bd7-447b-8874-db423324e549")
+		)
+		(instances
+			(project ""
+				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5484,6 +5827,93 @@
 				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
 					(reference "R6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 111.76 123.19 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efd05191-1177-497b-8a67-937cc18c132f")
+		(property "Reference" "U2"
+			(at 113.538 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 114.554 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4dd637bf-de49-47b1-8b35-dcf5360a6078")
+		)
+		(pin "3"
+			(uuid "28ad537d-4a32-4908-949f-55d589e2254c")
+		)
+		(pin "2"
+			(uuid "330eff73-4289-43bd-8ea4-96578731b35e")
+		)
+		(pin "1"
+			(uuid "33f4fe91-87ef-4233-888e-00c3c35a2948")
+		)
+		(pin "6"
+			(uuid "1c41665a-3592-45ce-8021-fc587a215ded")
+		)
+		(pin "7"
+			(uuid "0f3f809b-a1e5-4cc5-992f-32cbf2160185")
+		)
+		(pin "8"
+			(uuid "18430f0a-e732-4059-8af7-902e884b1f6f")
+		)
+		(pin "4"
+			(uuid "96f46df7-3f77-4446-a66e-88a69cd35136")
+		)
+		(instances
+			(project ""
+				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
