@@ -5,7 +5,7 @@
 	(uuid "3b4e74c5-522c-48e7-8ef3-cd629b916801")
 	(paper "A4")
 	(title_block
-		(title "Distortion Pedal v1")
+		(title "Under Pressure")
 		(date "2026-07-04")
 		(rev "07/04/2026")
 	)
@@ -3932,7 +3932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7afd1682-c62b-43b4-8784-b62c11287671")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 110.49 72.39 90)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 				)
 			)
 		)
-		(property "Value" "680kΩ"
+		(property "Value" "2.2kΩ"
 			(at 110.49 74.93 90)
 			(effects
 				(font
@@ -3984,7 +3984,7 @@
 		(instances
 			(project "pedal"
 				(path "/3b4e74c5-522c-48e7-8ef3-cd629b916801"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
